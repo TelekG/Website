@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="hu">
+
+	<head>
+	<title> Vagyonvédelem </title>
+	<meta charset="utf-8">
+	<meta name="author" content="Telek Gábor">
+	<link rel="stylesheet" href="styles.css"  type="text/css" />
+	</head>
+	
+	<body>
+	<h1 id="top" >Informatika a vagyonvédelemben</h1>
+	<hr alaign=center width=1100px size=5px color=black>
+	
+	<a class="link" href="index.html"> Kezdőlap </a><br>
+	<a class="link" href="harmadik.html"> Előző oldal </a><br>
+	<a class="link" href="otodik.html"> Következő oldal </a><br>
+	
+	<div> Távfelügyelet</div>
+	<br>
+	<img src="tavf.jpg" alt="Távfelügyelet" width="40%" height="40%" style="float:right;">
+	
+	<p>A távfelügyelet általában berendezések távoli elérésére, működtetésére, ellenőrzésére, felügyeletére szolgál. Létezik például vagyonvédelmi célú biztonságtechnikai rendszerek 24 órás távoli megfigyelése, felügyelete. A diszpécserszolgálat riasztáskor telefonon értesíti a meghatározott személyeket, valamint a jelzésnek megfelelően járőrt indít a helyszínre. A rendszerek közötti kommunikáció vezetékes kapcsolt vonalon keresztül, <abbr title="Global System for Mobile Communications, eredetileg Groupe Spécial Mobile">GSM</abbr>- illetve <abbr title="General Packet Radio Service">GPRS</abbr>-kapcsolattal történik.</p>
+	<p>De létezik például távfelügyelet iparban, folyamatirányításban, gépészeti rendszereknél . Ilyenek lehetnek a vízművek , a csatornázási művek, de hűtési, fűtési rendszerek, világítástechnikai, árnyékolástechnikai rendszerek.</p>
+	
+	<div>Vagyonvédelem - informatika - algoritmusok</div><br>
+		
+	<p>Hogyan is kapcsolódik az informatika a vagyonvédelemhez? Még szorosabban, mint gondolnánk. Az információ legkisebb egysége az 1 bit.
+	0 vagy 1. Pontosan ezt szimbolizálja az elektromos eszközökön a ki/bekapcsolás jel is.</p>
+	<p>A vagyonvédelem több folyamata is pontosan leírható így:</p>
+	<table border="1">
+		<tr>
+			<th bgcolor=green;>1</th>
+			<th bgcolor=#FF0000;>0</th>
+		</tr>
+		<tr>
+			<td>Igen</td>
+			<td>Nem</td>
+		</tr>
+		<tr>
+			<td>Beléphet</td>
+			<td>Nem léphet</td>
+		</tr>
+		<tr>
+			<td>&nbsp; Fogyasztott alkoholt &nbsp;</td>
+			<td>&nbsp; Nem fogyasztott alkoholt &nbsp; </td>
+		</tr>
+		<tr>
+			<td>Nyitva</td>
+			<td>Zárva</td>
+		</tr>
+		<tr>
+			<td>Eltűnt</td>
+			<td>Megvan</td>
+		</tr>
+		<tr>
+			<td>Világos</td>
+			<td>Sötét</td>
+		</tr>
+		<tr>
+			<td>Hideg</td>
+			<td>Meleg</td>
+		</tr>
+	</table>
+	 <br><br>
+	<div>Ipari és térfigyelő kamerák</div><br>
+	
+	<p align=justify>Az IP-kamera egy olyan digitális kamera, amely az internetprotokollt (IP) használja adatátvitelre, és így egy IP-hálózatra kapcsolódva kommunikál a külvilággal, szemben a hagyományos biztonsági <abbr title="Closed-circuit television">(CCTV)</abbr> kamerákkal, melyek analóg jeleket továbbítanak (jellemzően koaxiális kábelen), és szemben a webkamerákkal, melyek bár digitális eszközök, de adataikat csak egy működő számítógépre képesek továbbítani, annak USB-portjára csatlakozva.</p>
+	<p>Általános tulajdonságaik:</p>
+	<ol>
+		<li>hagyományos számítógép-hálózati kábel vagy vezeték nélküli WiFi segítségével csatlakozik a számítógép-hálózatra</li>
+		<li>a hálózaton saját IP-címe van</li>
+		<li>egy beépített webkiszolgálót futtat</li>
+		<li>egy vagy több porton figyel a bejövő kérésekre</li>
+	</ol>
+	
+ 	<div>Rögzítés</div><br>
+	<img src="ipkam.jpg" alt="Kamera 1" width="20%" height="25%" style="float:right;">
+	<img src="ipkam2.jpg" alt="Kamera 2" width="20%" height="25%" style="float:right;">
+
+	<p>Az IP-kamerák képének rögzítése történhet:</p>
+	<ol>
+		<li>egy <abbr title="Personal Computer - személyi számítógép">PC-re</abbr>, egy azon futó kliensszoftver segítségével</li>
+		<li>memóriakártyát támogató modellek esetében memóriakártyára</li>
+		<li>hálózati videorögzítőre <abbr title="Network Video Recorder">(NVR)</abbr>, mely egy videomagnószerű, erre a célra dedikált eszköz, ami merevlemezre menti a videofolyamot</li>
+		<li>felhő alapú szolgáltatások tárhelyére</li>
+		<li><abbr title="Network Attached Storage">NAS</abbr> szerverekre</li>
+	</ol>
+	<p>Az IP-kamerák felbontása 640 x 480 képponttól (VGA felbontás) indul, elméleti maximuma nincs. 2015-ben a legnépszerűbb felbontások az 1.0, 1.3 és 2.0 megapixel, de 5 megapixeles modellek is elérhetők.</p>
+	<p>Az olcsóbb, VGA felbontású modellek jellemzően <abbr title="Motion JPEG egy videó fájlformátum, amely a JPEG tömörítő algoritmus által kódolt különálló képek sorozatából tevődik össze">MJPEG</abbr> tömörítést használnak, mely gyakorlatilag az egyes képkockák jpg formátumú folyama. A VGA feletti felbontású modellek általában már H.264-et használnak, így jobban optimalizálva a hálózati terhelést és a tárhelyigényt is.</p>
+
+	<a class="link" href="#top">Ugrás a tetejére</a><br>
+	<p>&copy;Telek Gábor</p><br>
+	</body>
+</html>
